@@ -1,0 +1,275 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #e8f1f2;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #1b98e0;
+    padding: 10px 20px 0px;
+    padding-block: 20px;
+    border-right: solid 2px black;
+}
+
+.menu li {
+    padding-block: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    background-color: #247ba0;
+    min-height: 150px;
+
+}
+.content {
+    background-color: white;
+    min-height: 285px;
+    padding: 20px;
+}
+.footer {
+    background-color: #13293d;
+    min-height: 30px;
+}
+
+.logoclinica {
+    padding-left: 370px; 
+    padding-top: 20px; 
+    width: 110px;
+}
+
+.tituloprincipal {
+    color: #13293d; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+}
+
+.linhatitulo {
+    width: 450px; 
+    border-top: solid 1px; 
+    color:rgb(143, 143, 143)
+}
+
+.descricaoclinica {
+    padding-top: 20px; 
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.especialidades {
+    padding-top: 20px; 
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contatosrodape {
+    text-align: center; 
+    font-size: 10px; 
+    color: rgb(136, 132, 132); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulomenu {
+    padding-top: 15px; 
+    text-align: center; 
+    font-style: italic; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.itemlista {
+    color: white; 
+    text-decoration: none;
+}
+
+.audio {
+    padding-top: 200px;
+    width: 155px;
+    height: 30px;
+}
+
+.logoabout {
+    padding-left: 365px; 
+    padding-top: 26px;
+    width: 170px;
+}
+
+.tituloabout {
+    color:#2445a0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textosobrenos {
+    padding-top: 20px; 
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtituloabout {
+    color: rgb(77, 77, 77);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logotime {
+    padding-left: 380px; 
+    padding-top: 20px;
+    width: 110px;
+}
+
+.titulotime {   
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.especialidade {
+    text-align: left;
+    font-style: italic;
+}
+
+.tabelahorarios {
+    width: 600px;
+    margin-left: 115px;
+    border: solid black 1px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    -webkit-box-shadow: 3px 4px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 9px -1px rgba(0,0,0,0.75);
+}
+
+.tabelahead {
+    background-color:#6e6e6e;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.valores {
+    background-color:#247ba0;
+}
+
+.tabelabody tr:nth-child(even) {
+    background-color: #92b0c2;
+}
+
+.tabelabody tr:hover {
+    background-color: #3a93c7;
+    cursor: pointer;
+}
+
+.logocontato {
+    padding-left: 380px; 
+    padding-top: 20px;
+    width: 110px;
+}
+
+.telefones {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.endereço {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linhavertical {
+    position:absolute;
+    top: 170px;
+    right: 445px;
+    width: 2px;
+    height: 330px;
+    background-color: #247ba0;
+    border: 0px;
+}
+
+.mapa {
+    padding-left: 50px;
+}
+
+.faleconosco {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 180px;
+    right: 280px;
+}
+
+.label1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 240px;
+    right: 355px;
+}
+
+.label2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 265px;
+    right: 355px;
+}
+
+.label3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 290px;
+    right: 355px;
+}
+
+.label4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 315px;
+    right: 355px;
+}
+
+.caixa1 {
+    position: absolute;
+    top: 240px;
+    right: 38px;
+}
+
+.caixa2 {
+    position: absolute;
+    top: 265px;
+    right: 38px;
+}
+
+.caixa3 {
+    position: absolute;
+    top: 290px;
+    right: 38px;
+}
+
+.caixa4 {
+    position: absolute;
+    top: 315px;
+    right: 36px;
+}
+
+.botaoenviar {
+    position: absolute;
+    left: 730px;
+    top: 477px;
+}
+
+.botaolimpar {
+    position: absolute;
+    left: 790px;
+    top: 477px;
+}
